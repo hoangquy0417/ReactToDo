@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "tindev0702/react-todo"
+    dockerimagename = "hoangquy0417/react-todo"
     dockerImage = ""
     DOCKERHUB_CREDENTIALS = credentials('docker-account')
   }
